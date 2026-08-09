@@ -1,0 +1,32 @@
+{
+  "name": "swag-labs-playwright",
+  "version": "1.0.0",
+  "description": "Playwright BDD + POM automation framework for Swag Labs (SauceDemo)",
+  "scripts": {
+    "bddgen": "bddgen",
+    "test": "bddgen && playwright test",
+    "test:headed": "bddgen && playwright test --headed",
+    "test:ui": "bddgen && playwright test --ui",
+    "test:debug": "bddgen && playwright test --debug",
+    "test:tc01": "bddgen && playwright test --grep \"@tc01\"",
+    "test:tc02": "bddgen && playwright test --grep \"@tc02\"",
+    "test:tc03": "bddgen && playwright test --grep \"@tc03\"",
+    "test:tc04": "bddgen && playwright test --grep \"@tc04\"",
+    "test:tc05": "bddgen && playwright test --grep \"@tc05\"",
+    "test:tc06": "bddgen && playwright test --grep \"@tc06\"",
+    "test:tc07": "bddgen && playwright test --grep \"@tc07\"",
+    "test:tc08": "bddgen && playwright test --grep \"@tc08\"",
+    "test:tc09": "bddgen && playwright test --grep \"@tc09\"",
+    "test:tc10": "bddgen && playwright test --grep \"@tc10\"",
+    "test:login": "bddgen && playwright test --grep \"@login\"",
+    "test:inventory": "bddgen && playwright test --grep \"@inventory\"",
+    "test:cart": "bddgen && playwright test --grep \"@cart\"",
+    "test:checkout": "bddgen && playwright test --grep \"@checkout\"",
+    "test:smoke": "bddgen && playwright test --grep \"@smoke\"",
+    "report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "playwright-bdd": "^9.2.0"
+  }
+}

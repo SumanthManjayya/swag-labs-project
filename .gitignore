@@ -1,0 +1,10 @@
+node_modules/
+test-results/
+playwright-report/
+reports/
+blob-report/
+playwright/.cache/
+.features-gen/
+.env
+.DS_Store
+*.log
