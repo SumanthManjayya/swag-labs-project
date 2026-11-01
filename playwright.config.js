@@ -31,8 +31,8 @@ module.exports = defineConfig({
   },
   projects: [
     {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      name: 'Microsoft Edge',
+      use: { ...devices['Desktop Edge'] },
     },
   ],
 });
